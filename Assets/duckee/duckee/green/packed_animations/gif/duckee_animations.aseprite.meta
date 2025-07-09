@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 482258fd254d6f54b9e21b04d477c868
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: duckee_animations_Frame_0
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 34
+      width: 23
+      height: 19
+    spriteID: bc8b90fb707fd4d4d826a6adea8e2ed6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 34}
+  - name: duckee_animations_Frame_1
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 4
+      width: 23
+      height: 20
+    spriteID: 426c310936115f244b8b5d446da0a27e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 4}
+  - name: duckee_animations_Frame_2
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 34
+      width: 23
+      height: 19
+    spriteID: aa44a4dbf4f6b3644bc6c505d8228e1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 34}
+  - name: duckee_animations_Frame_3
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 89
+      width: 23
+      height: 18
+    spriteID: def88e92d24d1e7448b11ca5ac4f7235
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 89}
+  - name: duckee_animations_Frame_4
+    originalName: 
+    pivot: {x: 0.6086957, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 89
+      width: 23
+      height: 18
+    spriteID: b9ad319ae79d84f4ba6d370ec6fbc710
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 89}
+  - name: duckee_animations_Frame_5
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 34
+      width: 24
+      height: 19
+    spriteID: 50a02f7ef51a79840b096f96a34a31c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 34}
+  - name: duckee_animations_Frame_6
+    originalName: 
+    pivot: {x: 0.52, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 34
+      width: 25
+      height: 18
+    spriteID: 69ce44bd204ce9e4c8ee665acdb3c14e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 34}
+  - name: duckee_animations_Frame_7
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 34
+      width: 24
+      height: 19
+    spriteID: 083c8582eb025e244aab776890347895
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 34}
+  - name: duckee_animations_Frame_8
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 34
+      width: 23
+      height: 20
+    spriteID: 1dc23031a67bac2428572c8f0c122b63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 34}
+  - name: duckee_animations_Frame_9
+    originalName: 
+    pivot: {x: 0.52, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 4
+      width: 25
+      height: 19
+    spriteID: ba91301f6f5e2b04b915e45badfcb92c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 4}
+  - name: duckee_animations_Frame_10
+    originalName: 
+    pivot: {x: 0.47826087, y: -0.73913044}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 34
+      width: 23
+      height: 23
+    spriteID: 904d5ad705f3eb3409cd206d6d672090
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 34}
+  - name: duckee_animations_Frame_11
+    originalName: 
+    pivot: {x: 0.48, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 4
+      width: 25
+      height: 21
+    spriteID: 87f174350f9287842a0093f38b287d7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 4}
+  - name: duckee_animations_Frame_12
+    originalName: 
+    pivot: {x: 0.52, y: -0.85}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 4
+      width: 25
+      height: 20
+    spriteID: 1e133cff648e7774e8ae389557592aba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 4}
+  - name: duckee_animations_Frame_13
+    originalName: 
+    pivot: {x: 0.5277778, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 89
+      width: 36
+      height: 8
+    spriteID: 3c741e81b5c80d74493120ce54962ca5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 89}
+  - name: duckee_animations_Frame_14
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 169
+      y: 4
+      width: 26
+      height: 18
+    spriteID: 69dd3b7aa00cffd4c98a0d39af76c8a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 4}
+  - name: duckee_animations_Frame_15
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.84210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 34
+      width: 23
+      height: 19
+    spriteID: 6f962b9e1a946af40a1151e669fb722f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 34}
+  - name: duckee_animations_Frame_16
+    originalName: 
+    pivot: {x: 0.5294118, y: -1.7777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 89
+      width: 34
+      height: 9
+    spriteID: f73a5a3695d6bfd48bf9c465cbfb6667
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 89}
+  - name: duckee_animations_Frame_17
+    originalName: 
+    pivot: {x: 0.6, y: -0.9411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 89
+      width: 20
+      height: 17
+    spriteID: 484126c67bc34b8408965fe21a7ff881
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 89}
+  - name: duckee_animations_Frame_18
+    originalName: 
+    pivot: {x: 0.64705884, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 89
+      width: 17
+      height: 20
+    spriteID: 43fce799a22b75e4dbca23bdecf708c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 89}
+  - name: duckee_animations_Frame_19
+    originalName: 
+    pivot: {x: 0.61904764, y: -0.9411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 89
+      width: 21
+      height: 17
+    spriteID: c4237fb6f647b2d44a0049780dca3bf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 89}
+  - name: duckee_animations_Frame_20
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 4
+      width: 18
+      height: 20
+    spriteID: c04bddad8103ec4469fd220099793f3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 4}
+  - name: duckee_animations_Frame_21
+    originalName: 
+    pivot: {x: 0.48, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 25
+      height: 22
+    spriteID: 7adba9ab46a16ae48a00a0b874b68cd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: duckee_animations_Frame_22
+    originalName: 
+    pivot: {x: 0.44, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 25
+      height: 22
+    spriteID: cddb3e7f725952b4e830c3a9cbf8cba4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: duckee_animations_Frame_23
+    originalName: 
+    pivot: {x: 0.5555556, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 65
+      width: 27
+      height: 16
+    spriteID: d8d6b6fd4ce81bc4a86347895fa67d32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 65}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 806035303
+    name: duckee_animations
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: duckee_animations_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 23
+        height: 19
+      spriteId: bc8b90fb707fd4d4d826a6adea8e2ed6
+    - name: duckee_animations_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 23
+        height: 20
+      spriteId: 426c310936115f244b8b5d446da0a27e
+    - name: duckee_animations_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 23
+        height: 19
+      spriteId: aa44a4dbf4f6b3644bc6c505d8228e1e
+    - name: duckee_animations_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 23
+        height: 18
+      spriteId: def88e92d24d1e7448b11ca5ac4f7235
+    - name: duckee_animations_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 23
+        height: 18
+      spriteId: b9ad319ae79d84f4ba6d370ec6fbc710
+    - name: duckee_animations_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 24
+        height: 19
+      spriteId: 50a02f7ef51a79840b096f96a34a31c1
+    - name: duckee_animations_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 25
+        height: 18
+      spriteId: 69ce44bd204ce9e4c8ee665acdb3c14e
+    - name: duckee_animations_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 24
+        height: 19
+      spriteId: 083c8582eb025e244aab776890347895
+    - name: duckee_animations_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 23
+        height: 20
+      spriteId: 1dc23031a67bac2428572c8f0c122b63
+    - name: duckee_animations_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 25
+        height: 19
+      spriteId: ba91301f6f5e2b04b915e45badfcb92c
+    - name: duckee_animations_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 17
+        width: 23
+        height: 23
+      spriteId: 904d5ad705f3eb3409cd206d6d672090
+    - name: duckee_animations_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 21
+        width: 25
+        height: 21
+      spriteId: 87f174350f9287842a0093f38b287d7c
+    - name: duckee_animations_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 17
+        width: 25
+        height: 20
+      spriteId: 1e133cff648e7774e8ae389557592aba
+    - name: duckee_animations_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 16
+        width: 36
+        height: 8
+      spriteId: 3c741e81b5c80d74493120ce54962ca5
+    - name: duckee_animations_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 26
+        height: 18
+      spriteId: 69dd3b7aa00cffd4c98a0d39af76c8a5
+    - name: duckee_animations_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 23
+        height: 19
+      spriteId: 6f962b9e1a946af40a1151e669fb722f
+    - name: duckee_animations_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 14
+        y: 16
+        width: 34
+        height: 9
+      spriteId: f73a5a3695d6bfd48bf9c465cbfb6667
+    - name: duckee_animations_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 20
+        height: 17
+      spriteId: 484126c67bc34b8408965fe21a7ff881
+    - name: duckee_animations_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 16
+        width: 17
+        height: 20
+      spriteId: 43fce799a22b75e4dbca23bdecf708c7
+    - name: duckee_animations_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 21
+        height: 17
+      spriteId: c4237fb6f647b2d44a0049780dca3bf7
+    - name: duckee_animations_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 18
+        height: 20
+      spriteId: c04bddad8103ec4469fd220099793f3f
+    - name: duckee_animations_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 25
+        height: 22
+      spriteId: 7adba9ab46a16ae48a00a0b874b68cd5
+    - name: duckee_animations_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 16
+        width: 25
+        height: 22
+      spriteId: cddb3e7f725952b4e830c3a9cbf8cba4
+    - name: duckee_animations_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 27
+        height: 16
+      spriteId: d8d6b6fd4ce81bc4a86347895fa67d32
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
