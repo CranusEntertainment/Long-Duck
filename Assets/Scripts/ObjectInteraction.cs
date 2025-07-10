@@ -1,29 +1,24 @@
 using UnityEngine;
-using UnityEngine.UI; // Eðer UI elemanlarýný kullanacaksanýz bunu ekleyin.
 
 public class ObjectInteraction : MonoBehaviour
 {
+    public string itemName;
     public GameObject image;
-    public string itemName; // Objenin ismi ya da tanýmý
     private bool isInRange = false;
-   
 
     void Start()
     {
         image.SetActive(false);
-         // InventoryManager scriptini bul
     }
 
     void Update()
     {
         if (isInRange && Input.GetKeyDown(KeyCode.E))
         {
-            InventoryManager.Instance.AddItem(itemName, 1); // Envantere ekle
-            Destroy(gameObject); // Obje yok edilir
-            image.SetActive(false);
+            InventoryManager.Instance.AddItem(itemName, 1);
+            Destroy(gameObject);
         }
     }
-
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -43,4 +38,3 @@ public class ObjectInteraction : MonoBehaviour
         }
     }
 }
-
