@@ -1,47 +1,74 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class FireInteract : MonoBehaviour
 {
-    public GameObject fireObject;      // Yanan ate� objesi
-    public GameObject uiTextObject;    // UI yaz�s�n� i�eren GameObject
-    public Text uiText;                // UI yaz�s� (�rnek: "Odun: 10/3")
+    public GameObject fireObject;
+    public GameObject uiTextObject;
+    public Text uiText;
+    public DayNightCycle dayNightCycle;
+    public HealthSystem playerHealth; // Sağlık sistemi (sen tanımlayacaksın)
 
     private bool isInRange = false;
-    public int requiredWood = 3;
+    private bool fireIsLit = false;  // Ateş yakıldı mı?
 
+    public int requiredWood = 3;
+    public int requiredMushroom = 1;
+    public int healAmount = 20; // Can artış miktarı
+    public DayNightCycle hunger;
     void Start()
     {
-        fireObject.SetActive(false);      // Ate� kapal� ba�lar
-        uiTextObject.SetActive(false);   // UI gizli ba�lar
+        fireObject.SetActive(false);
+        uiTextObject.SetActive(false);
     }
 
     void Update()
     {
-        if (isInRange)
+        if (!isInRange) return;
+
+        int playerWood = InventoryManager.Instance.GetItemAmount("odun");
+        int playerMushroom = InventoryManager.Instance.GetItemAmount("mantar");
+
+        if (!fireIsLit)
         {
-            int playerWood = InventoryManager.Instance.GetItemAmount("odun");
-            uiText.text = $"Odun: {playerWood}/{requiredWood}";
+            uiText.text = $"Odun: {playerWood}/{requiredWood} (E yak)";
 
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (playerWood >= requiredWood)
                 {
-                    // Odunu d��
                     InventoryManager.Instance.RemoveItem("odun", requiredWood);
-
-                    // Ate�i yak
                     fireObject.SetActive(true);
-
-                    // UI kapat
-                    uiTextObject.SetActive(false);
-
-                    // Bir daha ate� yak�lmas�n istersen:
-                    this.enabled = false;
+                    fireIsLit = true;
+                    uiText.text = "Ateş yakıldı!";
+                    Debug.Log("Ateş yakıldı!");
                 }
                 else
                 {
-                    Debug.Log("Yeterli odunun yok!");
+                    uiText.text = "Yeterli odunun yok!";
+                }
+            }
+        }
+        else // Ateş zaten yanıyor → yemek pişirme zamanı
+        {
+            uiText.text = $"Mantar: {playerMushroom}/{requiredMushroom} (E pişir)";
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (playerMushroom >= requiredMushroom)
+                {
+                    InventoryManager.Instance.RemoveItem("mantar", requiredMushroom);
+                    // Açlık artır
+                    dayNightCycle.IncreaseHunger(5); // hungerAmount: örneğin 20
+
+                    uiText.text = "Mantar pişirildi +20 Açlık!";
+                    Debug.Log("Mantar pişirildi +20 Açlık");
+                    uiText.text = "Mantar pişirildi +20 Can!";
+                    Debug.Log("Mantar pişirildi +20 Can");
+                }
+                else
+                {
+                    uiText.text = "Yeterli mantarın yok!";
                 }
             }
         }
@@ -51,6 +78,7 @@ public class FireInteract : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            dayNightCycle.EnterWarmZone();
             isInRange = true;
             uiTextObject.SetActive(true);
         }
@@ -60,6 +88,7 @@ public class FireInteract : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            dayNightCycle.ExitWarmZone();
             isInRange = false;
             uiTextObject.SetActive(false);
         }
