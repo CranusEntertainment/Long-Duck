@@ -17,10 +17,8 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItem(string itemName, int amount = 1)
     {
-        InventoryUIManager uiManager = FindObjectOfType<InventoryUIManager>();
-        if (uiManager != null)
-            uiManager.UpdateUI();
-
+        if (string.IsNullOrEmpty(itemName) || amount <= 0)
+            return;
 
         if (inventory.ContainsKey(itemName))
             inventory[itemName] += amount;
@@ -28,6 +26,25 @@ public class InventoryManager : MonoBehaviour
             inventory[itemName] = amount;
 
         Debug.Log($"{itemName} eklendi. Þu an: {inventory[itemName]}");
+
+        UpdateUI();
+    }
+
+    public void RemoveItem(string itemName, int amount = 1)
+    {
+        if (string.IsNullOrEmpty(itemName) || amount <= 0)
+            return;
+
+        if (inventory.ContainsKey(itemName))
+        {
+            inventory[itemName] -= amount;
+            if (inventory[itemName] <= 0)
+                inventory[itemName] = 0;
+
+            Debug.Log($"{itemName} çýkarýldý. Þu an: {inventory[itemName]}");
+
+            UpdateUI();
+        }
     }
 
     public int GetItemAmount(string itemName)
@@ -40,5 +57,12 @@ public class InventoryManager : MonoBehaviour
     public Dictionary<string, int> GetInventory()
     {
         return inventory;
+    }
+
+    private void UpdateUI()
+    {
+        InventoryUIManager uiManager = FindObjectOfType<InventoryUIManager>();
+        if (uiManager != null)
+            uiManager.UpdateUI();
     }
 }
