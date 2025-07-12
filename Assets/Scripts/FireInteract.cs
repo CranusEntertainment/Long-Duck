@@ -8,7 +8,7 @@ public class FireInteract : MonoBehaviour
     public Text uiText;
     public DayNightCycle dayNightCycle;
     public HealthSystem playerHealth; // Sağlık sistemi (sen tanımlayacaksın)
-
+    public Animator playerAnimator; // Oyuncunun Animator'u
     private bool isInRange = false;
     private bool fireIsLit = false;  // Ateş yakıldı mı?
 
@@ -60,7 +60,7 @@ public class FireInteract : MonoBehaviour
                     InventoryManager.Instance.RemoveItem("mantar", requiredMushroom);
                     // Açlık artır
                     dayNightCycle.IncreaseHunger(5); // hungerAmount: örneğin 20
-
+                    playerAnimator.SetTrigger("Eat");
                     uiText.text = "Mantar pişirildi +20 Açlık!";
                     Debug.Log("Mantar pişirildi +20 Açlık");
                     uiText.text = "Mantar pişirildi +20 Can!";
